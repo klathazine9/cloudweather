@@ -1,1 +1,1 @@
-web gunicorn klaweather.wsgi --log-file -
+web: gunicorn klatapp.wsgi --log-file -
