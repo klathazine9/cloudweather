@@ -1,1 +1,1 @@
-web: gunicorn klatapp:app
+gunicorn -b :5000 --access-logfile - --error-logfile - klatapp:app
