@@ -25,7 +25,7 @@ SECRET_KEY = '69n$y=5o*8=9^uhq48==@-o=^lfjs=rk_6$f^32t8+o)dp^s_3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1","https://klaweather.herokuapp.com/"]
+ALLOWED_HOSTS = ["127.0.0.1","https://klaweatherr.herokuapp.com/"]
 
 
 # Application definition
