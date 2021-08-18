@@ -21,7 +21,7 @@ from django.conf.urls import url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('cloudapp.urls')),
+    path('', include('weathercore.urls')),
     
 ]
 
