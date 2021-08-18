@@ -33,7 +33,7 @@ def home(request):
         #print(temperature.text)
         #print(date_time_description.text)
         #print(region.text)
-    return render(request, 'cloudapp/home.html', {'weather':weather_data})
+    return render(request, 'weathercore/home.html', {'weather':weather_data})
 
 # Create your views here.
 
