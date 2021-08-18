@@ -25,7 +25,7 @@ SECRET_KEY = '69n$y=5o*8=9^uhq48==@-o=^lfjs=rk_6$f^32t8+o)dp^s_3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["127.0.0.1","https://klaweatherr.herokuapp.com/"]
+ALLOWED_HOSTS = ["127.0.0.1","https://klaudweath.herokuapp.com/"]
 
 
 # Application definition
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cloudapp',
+    'weathercore',
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'klatapp.urls'
+ROOT_URLCONF = 'weath.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'klatapp.wsgi.application'
+WSGI_APPLICATION = 'weath.wsgi.application'
 
 
 # Database
